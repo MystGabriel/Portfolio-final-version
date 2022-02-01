@@ -1289,3 +1289,9 @@ footer .content .social .up i {
         font-size: 27px;
     }
 }
+
+@media (max-width: 364px) {
+    .about .content .left .function {
+        font-size: 22px;
+    }
+}
