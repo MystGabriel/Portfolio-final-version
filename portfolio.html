@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="src/img/Favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Gabriel | Front-End Developer</title>
+</head>
+
+<body>
+
+    <!-- LOADING -->
+    <div class="loader">
+        <div class="ring"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="content">
+            <div class="logo">
+                <a href="index.html">Gabriel</a>
+            </div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#" class="active">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="logo">PORTFOLIO</div>
+        <h1>- welcome to my portfolio, if you want, you <br> can have one also, and it can look like this.</h1>
+        <div class="line"></div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../src/img/Portfolio.png" alt=""></div>
+                <div class="swiper-slide"><img src="../src/img/Portfolio-1.png" alt=""></div>
+                <div class="swiper-slide"><img src="../src/img/Portfolio-2.png" alt=""></div>
+                <div class="swiper-slide"><img src="../src/img/Portfolio-3.png" alt=""></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio-menu">
+                <ul>
+                    <li class="active" data-filter="*">All</li>
+                    <li data-filter=".brand">branding</li>
+                    <li data-filter=".webdesign">web design</li>
+                    <li data-filter=".mentor">mentor</li>
+                    <li data-filter=".creative">creative</li>
+                </ul>
+            </div>
+            <div class="portfolio-item">
+                <div class="item brand webdesign">
+                    <img class="iso-img" src="src/img/Portfolio-01.jpg" alt="">
+                    <div class="overlay-img">
+                        <div class="title">VIEW</div>
+                        <p class="description">Show the Project</p>
+                    </div>
+                </div>
+                <div class="item brand webdesign">
+                    <img class="iso-img" src="src/img/Portfolio-02.jpg" alt="">
+                    <div class="overlay-img">
+                        <div class="title">VIEW</div>
+                        <p class="description">Show the Project</p>
+                    </div>
+                </div>
+                <div class="item brand webdesign">
+                    <img class="iso-img" src="src/img/Portfolio-03.jpg" alt="">
+                    <div class="overlay-img">
+                        <div class="title">VIEW</div>
+                        <p class="description">Show the Project</p>
+                    </div>
+                </div>
+                <div class="item webdesign">
+                    <img class="iso-img" src="src/img/Portfolio-04.jpg" alt="">
+                    <div class="overlay-img">
+                        <div class="title">VIEW</div>
+                        <p class="description">Show the Project</p>
+                    </div>
+                </div>
+                <div class="item brand webdesign">
+                    <img class="iso-img" src="src/img/Portfolio-1.png" alt="">
+                    <div class="overlay-img">
+                        <div class="title">VIEW</div>
+                        <p class="description">Show the Project</p>
+                    </div>
+                </div>
+                <div class="item brand webdesign">
+                    <img class="iso-img" src="src/img/Portfolio-2.png" alt="">
+                    <div class="overlay-img">
+                        <div class="title">VIEW</div>
+                        <p class="description">Show the Project</p>
+                    </div>
+                </div>
+                <div class="item brand webdesign">
+                    <img class="iso-img" src="src/img/Portfolio-3.png" alt="">
+                    <div class="overlay-img">
+                        <div class="title">VIEW</div>
+                        <p class="description">Show the Project</p>
+                    </div>
+                </div>
+                <div class="item webdesign">
+                    <img class="iso-img" src="src/img/Portfolio.png" alt="">
+                    <div class="overlay-img">
+                        <div class="title">VIEW</div>
+                        <p class="description">Show the Project</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="content">
+            <div class="copy">
+                <i class="far fa-copyright"></i> 2021 <span>Gabriel</span>. Todos os Direitos Reservados
+            </div>
+            <div class="social">
+                <a href="https://linkedin.com/in/MystGabriel"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/MystGabriel"><i class="fab fa-github"></i></a>
+                <a href="https://wa.me/qr/7SDYDWOS3CGRN1"><i class="fab fa-whatsapp"></i></a>
+                <a href="#">
+                    <div class="up"><i class="fas fa-arrow-up"></i></div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="src/script/packery-mode.pkgd.min.js"></script>
+    <script>
+        // ISOTOPO
+        $('.portfolio-item').isotope({
+            itemSelector: '.item',
+            layoutMode: 'packery',
+            percentPosition: true,
+            mansory: {
+                columnWidth: '.item'
+            }
+        });
+
+        $('.portfolio-menu ul li').click(function() {
+            $('.portfolio-menu ul li').removeClass('active');
+            $(this).addClass('active');
+
+            var selector = $(this).attr('data-filter');
+
+            $('.portfolio-item').isotope({
+                filter: selector
+            });
+
+            return false;
+        });
+
+        $(document).ready(function() {
+            $('.portfolio-menu ul li').click(function() {
+                const value = $(this).attr('data-filter');
+
+                if (value == '*') {
+                    $('.item').show('1000');
+                } else {
+                    $('.item').not('.' + value).hide('1000');
+                    $('.item').filter('.' + value).show('1000');
+                }
+            });
+        });
+
+        // SWIPER
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                240: {
+                    slidesPerView: 1,
+                    spaceBetween: 31,
+                },
+                768: {
+                    slidesPerView: 2.4,
+                    spaceBetween: 31,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 31,
+                },
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>

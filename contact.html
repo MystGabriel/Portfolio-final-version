@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="src/img/Favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Gabriel | Front-End Developer</title>
+</head>
+
+<body>
+
+    <!-- LOADING -->
+    <div class="loader">
+        <div class="ring"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="content">
+            <div class="logo">
+                <a href="index.html">Gabriel</a>
+            </div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="#" class="active">CONTACT</a></li>
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header-contact">
+        <div class="logo">CONTACT</div>
+        <h1>- Don't be Shy, Say Hello!</h1>
+        <div class="line"></div>
+    </header>
+
+    <section class="contact">
+        <div class="content contact-content">
+            <div class="container">
+                <div class="contact-form bg-form">
+                    <div class="title-form">
+                        SEND ME A MESSAGE
+                    </div>
+                    <form action="https://api.staticforms.xyz/submit" method="POST">
+                        <input type="hidden" name="accessKey" value="22543831-93b7-4ffc-9790-9f8ded63e81e">
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/HTML/contact.html">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" name="name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" name="subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea placeholder="Describe your interest..." name="message" required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit" name="Submit">SEND MESSAGE</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="infos">
+                        <div class="info-title">CONTACT INFOS</div>
+                        <div class="user-info">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">São Paulo, Brasil</div>
+                        </div>
+                        <div class="user-info">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">gabrielsilvaaraujo16@gmail.com</div>
+                        </div>
+                        <div class="user-info">
+                            <i class="fas fa-mobile-alt"></i>
+                            <div class="info">+55 11 96028-1403</div>
+                        </div>
+                        <div class="user-info">
+                            <i class="fab fa-linkedin"></i>
+                            <div class="info">linkedin.com/in/MystGabriel</div>
+                        </div>
+                    </div>
+                    <div class="maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.2159785479516!2d-46.70405164893236!3d-23.488728964725286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef9ae585d85fd%3A0x86d08b1ab03de004!2sR.%20Calixto%20de%20Almeida%2C%20539%20-%20Jardim%20Monjolo%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002961-000!5e0!3m2!1spt-BR!2sbr!4v1635105277172!5m2!1spt-BR!2sbr"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="content">
+            <div class="copy">
+                <i class="far fa-copyright"></i> 2021 <span>Gabriel</span>. Todos os Direitos Reservados
+            </div>
+            <div class="social">
+                <a href="https://linkedin.com/in/MystGabriel"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/MystGabriel"><i class="fab fa-github"></i></a>
+                <a href="https://wa.me/qr/7SDYDWOS3CGRN1"><i class="fab fa-whatsapp"></i></a>
+                <a href="#">
+                    <div class="up"><i class="fas fa-arrow-up"></i></div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/script/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+</body>
+
+</html>
